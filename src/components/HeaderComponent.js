@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron,
     Button, Modal, ModalHeader, ModalBody,
     Form, FormGroup, Input, Label } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 class Header extends Component {
     constructor(props) {
@@ -10,10 +10,8 @@ class Header extends Component {
 
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
-            isNavOpen: false,
-            isModalOpen: false
+            isNavOpen: false
         };
-        this.toggleModal = this.toggleModal.bind(this);
         this.handleLogin = this.handleLogin.bind(this);
       }
 
@@ -22,10 +20,9 @@ class Header extends Component {
           isNavOpen: !this.state.isNavOpen
         });
       }
-      toggleModal() {
-        this.setState({
-          isModalOpen: !this.state.isModalOpen
-        });
+
+      btnClick() {
+          window.open("/login");
       }
 
       handleLogin(event) {
@@ -56,7 +53,7 @@ class Header extends Component {
                             </Nav>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <Button outline onClick={this.toggleModal}><span className="fa fa-sign-in fa-lg"></span> Login</Button>
+                                 <Link to="/login"><Button outline><span className="fa fa-sign-in fa-lg"></span> Login/Register</Button> </Link>
                                 </NavItem>
                             </Nav>
 
