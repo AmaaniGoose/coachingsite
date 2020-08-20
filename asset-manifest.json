@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/coachingsite/static/css/main.56840363.chunk.css",
+    "main.js": "/coachingsite/static/js/main.f2287f99.chunk.js",
+    "main.js.map": "/coachingsite/static/js/main.f2287f99.chunk.js.map",
+    "runtime-main.js": "/coachingsite/static/js/runtime-main.95502543.js",
+    "runtime-main.js.map": "/coachingsite/static/js/runtime-main.95502543.js.map",
+    "static/css/2.9c130d88.chunk.css": "/coachingsite/static/css/2.9c130d88.chunk.css",
+    "static/js/2.8dd4319d.chunk.js": "/coachingsite/static/js/2.8dd4319d.chunk.js",
+    "static/js/2.8dd4319d.chunk.js.map": "/coachingsite/static/js/2.8dd4319d.chunk.js.map",
+    "index.html": "/coachingsite/index.html",
+    "precache-manifest.475c17438a06dff99e73051b66b01256.js": "/coachingsite/precache-manifest.475c17438a06dff99e73051b66b01256.js",
+    "service-worker.js": "/coachingsite/service-worker.js",
+    "static/css/2.9c130d88.chunk.css.map": "/coachingsite/static/css/2.9c130d88.chunk.css.map",
+    "static/css/main.56840363.chunk.css.map": "/coachingsite/static/css/main.56840363.chunk.css.map",
+    "static/js/2.8dd4319d.chunk.js.LICENSE.txt": "/coachingsite/static/js/2.8dd4319d.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/coachingsite/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95502543.js",
+    "static/css/2.9c130d88.chunk.css",
+    "static/js/2.8dd4319d.chunk.js",
+    "static/css/main.56840363.chunk.css",
+    "static/js/main.f2287f99.chunk.js"
+  ]
+}
