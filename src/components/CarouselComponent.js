@@ -9,22 +9,22 @@ import {
 
 const items = [
   {
-    src: './assets/images/img1.png'
+    src: require("../images/img1.png")
   },
   {
-    src: './assets/images/img2.png'
+    src: require("../images/img2.png")
   },
   {
-    src: './assets/images/img3.jpg'
+    src: require("../images/img3.jpg")
   },
   {
-    src: './assets/images/img4.png'
+    src: require("../images/img4.png")
   },
   {
-    src: './assets/images/img5.png'
+    src: require("../images/img5.png")
   },
   {
-    src: './assets/images/img6.png'
+    src: require("../images/img6.png")
   }
 ];
 

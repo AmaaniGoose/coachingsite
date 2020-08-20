@@ -226,7 +226,7 @@ Today, aiming for the unachievable and continuously raising the bar has become a
                   <div className="row row-content justify-content-center">
                       <div className="col-12 col-md-12">
                         <h2 class="font-weight-light text-center">Map of our location</h2>
-                        <a href="https://www.google.com/maps/dir//%2728.452499,76.9879394%27"><img src="./assets/images/map.png" alt="Map" width="100%" height="100%" class="p-3" ></img></a>
+                        <a href="https://www.google.com/maps/dir//%2728.452499,76.9879394%27"><img src={require("../images/map.png")} alt="Map" width="100%" height="100%" class="p-3" ></img></a>
 
                     </div>
                   </div>
