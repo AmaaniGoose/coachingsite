@@ -52,27 +52,37 @@ class Home extends Component {
                           }}>
                   <div class="d-flex flex-row flex-nowrap justify-content-center" >
                         <div class="card m-3">
-                        <div class="card-body">
-                          Offer Detail
-                        </div>
+                          <h5 class="card-title m-3">IIT-JEE Coaching</h5>
+                            <div class="card-body">
+                              IIT-JEE coaching from VI to XII students and for drop outs. Guest lectures are regularly arranged from corporate
+                              professionals who are Alumni of IIT, NITs, KOTA & JNU/DU. We Focus on individual progress to make weak students bright
+                              & bright ones as toppers.We follow continuous performance based scholarships.
+                            </div>
                         </div>
 
                         <div class="card m-3">
-                          <div class="card-body">
-                            Offer Detail
-                          </div>
+                          <h5 class="card-title m-3">NEET Coaching</h5>
+                            <div class="card-body">
+                              NEET coaching from VII to XII students and for drop outs.
+                            </div>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row flex-nowrap justify-content-center" >
+                        <div class="card m-3">
+                          <h5 class="card-title m-3">CLAT Coaching</h5>
+                            <div class="card-body">
+                              CLAT Coaching for XI to XII students and drop outs.
+                            </div>
                         </div>
                         <div class="card m-3">
-                          <div class="card-body">
-                            Offer Detail
-                          </div>
+                          <h5 class="card-title text-center m-3">All Boards Coaching</h5>
+                            <div class="card-body ">
+                              All boards regular coaching from IV to XII students. Guest lectures are regularly arranged from
+                              corporate professionals who are Alumni of IIT, NITs, KOTA & JNU/DU. We Focus on individual progress to make
+                               weak students bright & bright ones as toppers.We follow continuous performance based scholarships.
+                            </div>
                         </div>
-                        <div class="card m-3">
-                          <div class="card-body">
-                            Offer Detail
-                          </div>
-                        </div>
-                  </div>
+                      </div>
                   </FadeTransform>
               </div>
 
@@ -216,7 +226,7 @@ Today, aiming for the unachievable and continuously raising the bar has become a
                   <div className="row row-content justify-content-center">
                       <div className="col-12 col-md-12">
                         <h2 class="font-weight-light text-center">Map of our location</h2>
-                        <img src="./assets/images/map.png" alt="Map" width="100%" height="100%" class="p-3"></img>
+                        <a href="https://www.google.com/maps/dir//%2728.452499,76.9879394%27"><img src="./assets/images/map.png" alt="Map" width="100%" height="100%" class="p-3" ></img></a>
 
                     </div>
                   </div>

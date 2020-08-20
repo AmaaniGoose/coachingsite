@@ -45,7 +45,7 @@ class Header extends Component {
                 <Navbar dark expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="mr-auto" href="/"><img src='assets/images/headerlogo.png' height="40" width="60" alt='LogoImage' /></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/"><img src='assets/images/headerlogo2.png' height="40" width="60" alt='LogoImage' /></NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                             <NavItem>
@@ -64,11 +64,14 @@ class Header extends Component {
                 <Jumbotron>
                     <div className="container">
                         <div className="row row-header">
-                            <div className="col-12 col-sm-6">
+                            <div className="col-12 col-sm-5">
                                 <h1>Rising Arjun</h1>
                                 <p>Coaching Center in Sec37C, Gurgaon for Classes VI to XII & JEE Main/Advanced</p>
                             </div>
-                            <div class="col-12 offset-md-3 col-sm-3 align-self-center">
+                            <div class="col-12 col-sm-3 align-self-center">
+                                  <img src="assets/images/headerlogo.png" class="img-thumbnail"></img>
+                                </div>
+                            <div class="col-12 offset-sm-1 col-sm align-self-center">
                               <a role="button" class="btn btn-block nav-link btn-info" onClick={this.toggleModal}>Contact Us</a>
                             </div>
                         </div>
