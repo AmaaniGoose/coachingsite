@@ -1,26 +1,35 @@
 {
   "files": {
     "main.css": "/coachingsite/static/css/main.56840363.chunk.css",
-    "main.js": "/coachingsite/static/js/main.f2287f99.chunk.js",
-    "main.js.map": "/coachingsite/static/js/main.f2287f99.chunk.js.map",
+    "main.js": "/coachingsite/static/js/main.adcb6216.chunk.js",
+    "main.js.map": "/coachingsite/static/js/main.adcb6216.chunk.js.map",
     "runtime-main.js": "/coachingsite/static/js/runtime-main.95502543.js",
     "runtime-main.js.map": "/coachingsite/static/js/runtime-main.95502543.js.map",
     "static/css/2.9c130d88.chunk.css": "/coachingsite/static/css/2.9c130d88.chunk.css",
     "static/js/2.8dd4319d.chunk.js": "/coachingsite/static/js/2.8dd4319d.chunk.js",
     "static/js/2.8dd4319d.chunk.js.map": "/coachingsite/static/js/2.8dd4319d.chunk.js.map",
     "index.html": "/coachingsite/index.html",
-    "precache-manifest.475c17438a06dff99e73051b66b01256.js": "/coachingsite/precache-manifest.475c17438a06dff99e73051b66b01256.js",
+    "precache-manifest.ead06b2b29116a2de9cb9887f54bd382.js": "/coachingsite/precache-manifest.ead06b2b29116a2de9cb9887f54bd382.js",
     "service-worker.js": "/coachingsite/service-worker.js",
     "static/css/2.9c130d88.chunk.css.map": "/coachingsite/static/css/2.9c130d88.chunk.css.map",
     "static/css/main.56840363.chunk.css.map": "/coachingsite/static/css/main.56840363.chunk.css.map",
     "static/js/2.8dd4319d.chunk.js.LICENSE.txt": "/coachingsite/static/js/2.8dd4319d.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.css": "/coachingsite/static/media/fontawesome-webfont.fee66e71.woff"
+    "static/media/font-awesome.css": "/coachingsite/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/headerlogo.png": "/coachingsite/static/media/headerlogo.f1fb19ae.png",
+    "static/media/headerlogo2.png": "/coachingsite/static/media/headerlogo2.c4a4a251.png",
+    "static/media/img1.png": "/coachingsite/static/media/img1.e04bba2a.png",
+    "static/media/img2.png": "/coachingsite/static/media/img2.7f51a89c.png",
+    "static/media/img3.jpg": "/coachingsite/static/media/img3.a5e80bcf.jpg",
+    "static/media/img4.png": "/coachingsite/static/media/img4.5d541536.png",
+    "static/media/img5.png": "/coachingsite/static/media/img5.dc208447.png",
+    "static/media/img6.png": "/coachingsite/static/media/img6.cce8fefc.png",
+    "static/media/map.png": "/coachingsite/static/media/map.f98405d1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.95502543.js",
     "static/css/2.9c130d88.chunk.css",
     "static/js/2.8dd4319d.chunk.js",
     "static/css/main.56840363.chunk.css",
-    "static/js/main.f2287f99.chunk.js"
+    "static/js/main.adcb6216.chunk.js"
   ]
 }
