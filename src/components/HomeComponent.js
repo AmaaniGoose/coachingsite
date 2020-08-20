@@ -16,7 +16,7 @@ class Home extends Component {
             </div>
 
             <div className="row row-content">
-              <div className="col-6 col-md-6">
+              <div className="col-12 col-md-6">
 
                 <h2>{"\n"}Announcements{"\n"}</h2>
 
@@ -30,7 +30,7 @@ class Home extends Component {
               </div>
 
 
-              <div className="col-6 col-md-6">
+              <div className="col-12 col-md-6">
                   <h2>{"\n"}News and Events{"\n"}</h2>
 
                     <ListGroup>
@@ -44,7 +44,7 @@ class Home extends Component {
               </div>
 
               <div class="container-fluid py-2">
-                  <h2 class="font-weight-light text-center">Current Offers</h2>
+                  <h2 class="font-weight-light text-center">Offers and Services</h2>
                     <FadeTransform
                           in
                           transformProps={{
@@ -122,7 +122,7 @@ class Home extends Component {
 
               <div className="row row-content">
 
-                <div className="col-6 col-md-6">
+                <div className="col-12 col-md-6">
                   <Card>
                     <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
                     <CardBody>
@@ -133,7 +133,7 @@ class Home extends Component {
                     </CardBody>
                   </Card>
                 </div>
-                <div className="col-6 col-md-6">
+                <div className="col-12 col-md-6">
                   <Card>
                     <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
                     <CardBody>
@@ -152,7 +152,7 @@ class Home extends Component {
                 </div>
 
                 <div className="row ">
-                  <div className="col-6 col-md-6">
+                  <div className="col-12 col-md-6">
                     <Card>
                       <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
                       <CardBody>
@@ -163,7 +163,7 @@ class Home extends Component {
                       </CardBody>
                     </Card>
                   </div>
-                  <div className="col-6 col-md-6">
+                  <div className="col-12 col-md-6">
                     <Card>
                       <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
                       <CardBody>
@@ -176,7 +176,7 @@ class Home extends Component {
                   </div>
 
                   <div className="row">
-                    <div className="col-6 col-md-6">
+                    <div className="col-12 col-md-6">
                       <Card>
                         <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
                         <CardBody>
@@ -187,7 +187,7 @@ class Home extends Component {
                         </CardBody>
                       </Card>
                     </div>
-                    <div className="col-6 col-md-6">
+                    <div className="col-12 col-md-6">
                       <Card>
                         <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
                         <CardBody>
@@ -198,6 +198,30 @@ class Home extends Component {
                       </Card>
                       </div>
                     </div>
+
+                  <div className="row row-content justify-content-center">
+                      <div className="col-12 col-md-12">
+                        <div class="card text-white bg-secondary mb-3 card text-center">
+                          <div class="card-header">ABOUT RISING ARJUN</div>
+                          <div class="card-body">
+                            <h5 class="card-title">A Institute with Vision</h5>
+                            <p class="card-text">Rising Arjun coaching institute was founded by the vision and toil of corporate professionals, Alumnus of MCA from JNU, New Delhi. The founder members have rich experience in giving coaching to school students, and to serious JEE/NEET/CLAT aspirants.
+We aim to bring the best out of a student the way Guru Dronacharya brought the best in his student Arjuna and made him the best scholar in Indian history who was admired by everyone even by his competitors. Lecturers go beyond merely coaching for regular & competitive classes to make a difference in the way Students think and approach problems.
+Today, aiming for the unachievable and continuously raising the bar has become a part of the Rising Arjun DNA. The Journey is not over yet. For us at Rising Arjun, The Journey will never be over. For us, this Journey itself is the destination.</p>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div className="row row-content justify-content-center">
+                      <div className="col-12 col-md-12">
+                        <h2 class="font-weight-light text-center">Map of our location</h2>
+                        <img src="./assets/images/map.png" alt="Map" width="100%" height="100%" class="p-3"></img>
+
+                    </div>
+                  </div>
+
+
         </div>
       );
     }

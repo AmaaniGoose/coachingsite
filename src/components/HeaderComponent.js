@@ -10,9 +10,11 @@ class Header extends Component {
 
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
-            isNavOpen: false
+            isNavOpen: false,
+            isModalOpen: false
         };
         this.handleLogin = this.handleLogin.bind(this);
+        this.toggleModal = this.toggleModal.bind(this);
       }
 
       toggleNav() {
@@ -25,6 +27,11 @@ class Header extends Component {
           window.open("/login");
       }
 
+      toggleModal() {
+          this.setState({
+            isModalOpen: !this.state.isModalOpen
+          });
+        }
       handleLogin(event) {
           this.toggleModal();
           alert("Username: " + this.username.value + " Password: " + this.password.value
@@ -38,17 +45,11 @@ class Header extends Component {
                 <Navbar dark expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="mr-auto" href="/"><img src='assets/images/logo.png' height="30" width="41" alt='LogoImage' /></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/"><img src='assets/images/headerlogo.png' height="40" width="60" alt='LogoImage' /></NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                             <NavItem>
                                 <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> Home</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink className="nav-link" to='/aboutus'><span className="fa fa-info fa-lg"></span> About Us</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink className="nav-link" to='/contactus'><span className="fa fa-address-card fa-lg"></span> Contact Us</NavLink>
                             </NavItem>
                             </Nav>
                             <Nav className="ml-auto" navbar>
@@ -64,35 +65,29 @@ class Header extends Component {
                     <div className="container">
                         <div className="row row-header">
                             <div className="col-12 col-sm-6">
-                                <h1>Institute Name</h1>
-                                <p>Institute mission and information</p>
+                                <h1>Rising Arjun</h1>
+                                <p>Coaching Center in Sec37C, Gurgaon for Classes VI to XII & JEE Main/Advanced</p>
+                            </div>
+                            <div class="col-12 offset-md-3 col-sm-3 align-self-center">
+                              <a role="button" class="btn btn-block nav-link btn-info" onClick={this.toggleModal}>Contact Us</a>
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-                  <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
+                  <ModalHeader toggle={this.toggleModal}>Contact Us</ModalHeader>
                   <ModalBody>
-                    <Form onSubmit={this.handleLogin}>
-                         <FormGroup>
-                             <Label htmlFor="username">Username</Label>
-                             <Input type="text" id="username" name="username"
-                                 innerRef={(input) => this.username = input} />
-                         </FormGroup>
-                         <FormGroup>
-                             <Label htmlFor="password">Password</Label>
-                             <Input type="password" id="password" name="password"
-                                 innerRef={(input) => this.password = input}  />
-                         </FormGroup>
-                         <FormGroup check>
-                             <Label check>
-                                 <Input type="checkbox" name="remember"
-                                 innerRef={(input) => this.remember = input}  />
-                                 Remember me
-                             </Label>
-                         </FormGroup>
-                         <Button type="submit" value="submit" color="primary">Login</Button>
-                     </Form>
+                    <h5>Phone numbers</h5>
+                    <i className="fa fa-phone fa-lg"></i>: 093194 12223<br />
+                    <i className="fa fa-phone fa-lg"></i>: 078383 62175<br />
+                    <h5><br></br>Address</h5>
+                      Kataria Market, Adjacent ILD/Corona/Taksila, Sector 37C
+                      GURGAON, Haryana 122001
+                      India
+                    <h5><br></br>Email Id</h5>
+                    <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:therisingarjun@gmail.com "> therisingarjun@gmail.com </a>
+                    <h5><br></br>Business Hours</h5>
+                    Monday to Friday: 9AM to 6PM
                   </ModalBody>
               </Modal>
             </div>

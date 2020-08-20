@@ -13,7 +13,7 @@ class Login extends Component {
     render() {
         return(
             <div>
-                Welcome to Login
+                Welcome to Login/Register
             </div>
         );
     }
